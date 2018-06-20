@@ -1,0 +1,104 @@
+body
+	width: 100%
+	height: 100%
+	.scene
+		background-color: #000
+		position: absolute
+		bottom: 0
+		left: 0
+		overflow: hidden
+		right: 0
+		height: 800px
+		div
+			position: absolute
+			bottom: 0
+		.batman
+			width: 895px
+			height: 700px
+			left: 20%
+			margin-left: -447px
+			background-color: #000
+			background-image: url(../image/Batman.png)
+			animation: batman 10s linear infinite
+		@keyframes batman
+			0%
+				opacity: 0.1
+			5%
+				opacity: 0.1
+			10%
+				opacity: 0.1
+			15%
+				opacity: 0.1
+			20%
+				opacity: 0.1
+			25%
+				opacity: 0.9
+			26%
+				opacity: 0.1
+			29%
+				opacity: 1
+			32%
+				opacity: 0.1
+			40%
+				opacity: 0.1
+			50%
+				opacity: 0.1
+			55%
+				opacity: 1
+			58%
+				opacity: 0.1
+			60%
+				opacity: 1
+			68%
+				opacity: 0.1
+			100%
+				opacity: 0.1
+		.animation
+			background-image: url(../image/Animation.png)
+			width: 100% 
+			height: 100%
+			animation: light 5s linear infinite
+		@keyframes light 
+			0% 	
+				background-position: 0px 0px, 0px 0px, 0px 0px
+			100%
+				background-position: -300px 500px, 1000px 400px, 300px 300px
+		.logo
+			background-image: url(../image/logo.png)
+			width: 800px
+			height: 600px
+			right: -5%
+			top: 5%
+		.text
+			font-size: 100px
+			right: 10%
+			bottom: -50%
+			color: #fff
+			animation: text 15s linear infinite
+		@keyframes text
+			0%
+				bottom: -50%
+			10%
+				bottom: -25%
+			20%
+				bottom: -5%
+			30%
+				bottom: -5%
+			40%
+				bottom: -5%
+			50%
+				bottom: -5%
+			60%
+				bottom: -5%
+			70%
+				bottom: -5%
+			78%
+				bottom: -10%
+			90%
+				bottom: -15%
+			91%
+				bottom: -20%
+			92%
+				bottom: -25%
+			100%
+				bottom: -50% 
